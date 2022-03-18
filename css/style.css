@@ -182,9 +182,10 @@ ul {
 -------------------------------*/
 .home {
   background-image: url(../Images/Hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   padding: 150px 0;
-  margin-top: -80px;
   /*background-color: var(--main-color);*/
   border-radius: 0 0 200px 0;
 }
