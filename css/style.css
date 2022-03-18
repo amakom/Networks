@@ -184,7 +184,7 @@ ul {
   background-image: url(../Images/Hero.png);
   min-height: 100vh;
   padding: 150px 0;
-  margin-top: -102px;
+  margin-top: -80px;
   /*background-color: var(--main-color);*/
   border-radius: 0 0 200px 0;
 }
@@ -221,7 +221,7 @@ ul {
   line-height: 50px;
 }
 .home-img img {
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
   box-shadow: var(--shadow-black-100);
   border-radius: 32px;
