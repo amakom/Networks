@@ -322,6 +322,12 @@ ul {
   max-width: 100px;
   width: 100%;
 }
+.network-view h5 {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--main-color);
+}
 
 /*-----------------------------
  Footer Section
