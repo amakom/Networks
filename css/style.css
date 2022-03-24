@@ -47,7 +47,7 @@ ul {
   /*background-color: red;*/
   padding: 12px 30px;
   border: none;
-  color: red;
+  color: var(--black-900);
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 500;
@@ -315,36 +315,11 @@ ul {
   line-height: 20px;
 }
 
-/*-----------------------------
- Model Popup Section
--------------------------------*/
-.model {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.model-content {
-  background-color: #f4f4f4;
-  margin: 30% auto;
-  padding: 30px;
-  width: 30%;
-  box-shadow: var(--shadow-black-300);
-}
-.closeBtn {
+
+.modal-header h4{
   color: var(--main-color);
-  float: right;
-  font-size: 30px;
-}
-.closeBtn:hover,
-.closeBtn:focus {
-  color: var(--bg-dark);
-  cursor: pointer;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 
 /*-----------------------------
